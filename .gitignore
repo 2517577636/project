@@ -1,0 +1,9 @@
+#bootstrap dist
+bootstrap-4.3.1-dist
+
+#demo content
+
+demo/*
+!demo/looplabDemo
+demo/looplabDemo/node_modules
+demo/looplabDemo/dist/
