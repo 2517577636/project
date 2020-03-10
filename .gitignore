@@ -7,3 +7,7 @@ demo/*
 !demo/looplabDemo
 demo/looplabDemo/node_modules
 demo/looplabDemo/dist/
+
+!demo/responsive_bootstrap
+demo/responsive_bootstrap/node_modules
+demo/responsive_bootstrap/dist

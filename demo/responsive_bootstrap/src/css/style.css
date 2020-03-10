@@ -1,0 +1,142 @@
+.navbar{
+    background: rgba(0, 0, 0, 0.6) !important;
+}
+
+.navbar .navbar-brand img{
+    height: 2rem;
+}
+
+.navbar .collapse li{
+    margin: 0 8px;
+}
+
+/*------ landing ------ */
+.landing{
+    width: 100%;
+    height: 100vh;
+    background: url('../img/computers.png') no-repeat center/cover;
+    background-attachment: fixed;
+}
+
+.landing .home-inner{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.landing .home-inner .caption h1{
+    padding-bottom: 1.3rem;
+    font-weight: 600;
+    font-size: 4rem;
+    letter-spacing: .2rem;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, .3);
+}
+
+.landing .home-inner .caption h3{
+    margin-bottom: 2rem ;
+}
+
+.landing .home-inner .caption .btn{
+    padding: .5rem 1rem;
+    border-radius: 0;
+    border: 3px solid #fff;
+}
+
+/*---x--- landing ----x-- */
+
+/* ------Project ------ */
+#project .project-inner{
+    width: 75%;
+    padding:1rem;
+    margin: 1.5rem auto; 
+}
+
+#project .project-inner .project-container h1{
+    color: rgba(0, 0, 0, .6);
+}
+
+#project .project-inner .btn{
+    padding: .5rem 1rem;
+    border-radius: 0;
+    border: 3px solid #fff;
+}
+
+/* --x----Project ----x-- */
+
+/* ---------Feature--------- */
+#feature .jumbotron .feature-container .feature-container-header .header-underline{
+    width: 3rem;
+    height: .2rem;
+    background-color: var(--theme-color);
+    margin: 0 auto 2rem;
+}
+
+/* -----x----Feature------x--- */
+
+/* ----------Resources-------- */
+#resources{
+    background: url('../img/apple.png') no-repeat center/cover;
+    background-attachment: fixed;
+}
+
+#resources .resources-inner{
+    padding: 4rem 2rem;
+    background: url('../img/apple.png') no-repeat center/cover;
+    background: rgba(0, 0, 0, .8);
+}
+
+#resources .resources-inner .header{
+    margin-top: 4rem;
+    font-weight: 800;
+}
+
+/* #resources .resources-inner .header-underline{
+    width: 3rem;
+    height: .2rem;
+    background-color: var(--theme-color);
+    margin: 0 auto 2rem;
+} */
+
+
+/* ----x-------Resources-----x--- */
+
+/* -------------Client-------------- */
+
+
+/* -------------Client-------------- */
+
+/* -------------Contact-------------- */
+#contact{
+    background: var(--footer-bg-color);
+}
+
+#contact .contact-inner{
+    padding: 4rem 2rem;
+}
+/* -------x------Contact------x-------- */
+
+/* -----------Common---------- */
+:root{
+    --theme-color: #1EBBA3;
+    --footer-bg-color: rgb(64, 71, 78);
+}
+
+svg.svg-inline--fa{
+    color: var(--theme-color);
+}
+
+.header{
+    font-weight: 800;
+}
+
+.header-underline{
+    width: 3rem;
+    height: .2rem;
+    background-color: var(--theme-color);
+    margin: 0 auto 2rem;
+}
+
+.jumbotron{
+    margin-bottom: 0 !important;
+}
+/* ----------x-Common-x--------- */
